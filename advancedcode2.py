@@ -15,9 +15,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress TensorFlow logging
 device = torch.device("cpu")
 
 # Twilio Configuration for sending SMS alerts
-TWILIO_ACCOUNT_SID = 'AC8f7536a6dd72e74b7185dcfb11bf7460'
-TWILIO_AUTH_TOKEN = '52d89f32d9044ef6f6888f271a39d923'
-TWILIO_PHONE_NUMBER = '+12058943013'
+TWILIO_ACCOUNT_SID = '****75****dd72e****185dcf****f746*'
+TWILIO_AUTH_TOKEN = '********************************'
+TWILIO_PHONE_NUMBER = '+1*05****013'
 
 # Initialize Wav2Vec2 model and tokenizer
 tokenizer = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-base-960h")
